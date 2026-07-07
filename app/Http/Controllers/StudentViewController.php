@@ -33,6 +33,7 @@ class StudentViewController extends Controller
         }
         $financeData = null;
         $errorMessage = null;
+        
         $response = null;
 
         if ($studentId !== '') {
